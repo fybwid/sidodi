@@ -62,3 +62,11 @@ group :development, :test do
 end
 ```
 
+## Planning the creation of OutgoingMail
+1. Visit the root route
+2. click on a button to create a new post
+3. fill out the bits of the form that we need.
+4. click the submit button
+5. expect the page that we’re sent to to have specific text
+6. expect the page to contain our attachment.
+
