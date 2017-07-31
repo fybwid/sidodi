@@ -89,6 +89,10 @@ feature 'Creating Outgoing Mail' do
   end
 end
 ```
+### Run specs
+```
+bundle exec rspec
+```
 
 ### Run test for creating new Outgoing Mail
 ```
