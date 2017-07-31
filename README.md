@@ -48,3 +48,16 @@ rails generate rspec:install
 ```
 gem 'capybara'
 ```
+> Add `require 'capybara/rails'` to `spec/rails_helper.rb`
+
+### [Factory Girl Rails](https://github.com/thoughtbot/factory_girl_rails)
+```
+gem 'factory_girl_rails'
+```
+> Add Factory Girl Rails in:
+
+```
+group :development, :test do
+  gem 'factory_girl_rails'
+end
+```
