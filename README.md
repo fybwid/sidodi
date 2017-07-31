@@ -90,6 +90,8 @@ feature 'Creating Outgoing Mail' do
 end
 ```
 ### Run specs
+> Before run command below, run `sudo service postgresql start`
+
 ```
 bundle exec rspec
 ```
